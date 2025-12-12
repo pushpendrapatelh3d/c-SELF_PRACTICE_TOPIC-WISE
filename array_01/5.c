@@ -1,0 +1,10 @@
+#include<stdio.h>
+//sum of elements of array
+int main(){
+    int a[5]={1,2,3,4,5};
+    int sum=0;
+    for(int i=0;i<5;i++){
+        sum+=a[i];
+    }
+    printf("sum of elements of array :%d",sum);
+}
