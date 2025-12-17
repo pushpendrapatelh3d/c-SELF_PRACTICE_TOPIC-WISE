@@ -1,6 +1,6 @@
 #include<limits.h>
 #include<stdio.h>
-
+//to find second largest element of array
 int main(){
     int a[10], freq[10];
     for (int i = 0; i < 10; i++)
